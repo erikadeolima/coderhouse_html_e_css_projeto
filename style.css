@@ -6,6 +6,7 @@ body {
     padding-top: 90px;
     font-family: Arial, sans-serif;
     padding-bottom: 50px;
+    
 }
 
 /* BANNER */
@@ -110,14 +111,10 @@ body {
     font-weight: bold;
 }
 
-.content {
-    scroll-margin-top: 100px;
-}
-
 .section {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    padding-top: 100px;
 }
 
 .section_title {
@@ -135,8 +132,8 @@ body {
 
 .image_profile {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    padding: 2% 10%;
 }
 
 .card {
@@ -158,7 +155,7 @@ body {
 }
 
 .container_timeline {
-    max-width: 800px;
+    max-width: 70%;
     margin: 0px 0px 0px auto;
     padding: 20px;
     background-color: #f9f9f9;
@@ -217,9 +214,10 @@ body {
 
 /* PORTIFOLIO */
 .portifolio {
-    display: grid;
+        display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 5% 2.5%;
+    padding: 0 5%;
 }
 
 .project {
