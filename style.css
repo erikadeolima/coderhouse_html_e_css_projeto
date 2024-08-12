@@ -7,7 +7,7 @@ body {
   font-family: Arial, sans-serif;
   padding-top: 90px;
   background-color: #2D605E;
-  color: #D7C55A;
+  color: #E8D461;
 }
 
 /* Banner */
@@ -22,7 +22,7 @@ body {
   width: 98%;
   height: 70px;
   z-index: 1;
-  color: #D7C55A;
+  color: #E8D461;
 }
 .menu-title {
   font-weight: bold;
@@ -118,7 +118,7 @@ body {
 
 .menu-sandwich a {
   text-decoration: none;
-  color: #D7C55A;
+  color: #E8D461;
   transition: color 0.2s ease;
 }
 
@@ -178,13 +178,13 @@ body {
   border: 1px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #2D605E;
-  color: #D7C55A;
+  color: #E8D461;
 }
 
 .timeline {
   position: relative;
   padding: 20px;
-  color:#D7C55A;
+  color:#E8D461;
 }
 
 .event {
@@ -198,7 +198,7 @@ body {
   left: -30px;
   font-size: 18px;
   font-weight: bold;
-  color:#D7C55A;
+  color:#E8D461;
   padding-top: 10px;
 }
 
@@ -217,7 +217,7 @@ body {
   left: -20px;
   width: 10px;
   height: 10px;
-  background-color:#D7C55A;
+  background-color:#E8D461;
   border-radius: 50%;
 }
 
@@ -299,12 +299,12 @@ body {
 
 .contact a{
   text-decoration: none;
-  color:#D7C55A;
+  color:#E8D461;
 }
 
 .contact a:visited{
   text-decoration: none;
-  color:#D7C55A;
+  color:#E8D461;
 }
 
 .contact_icon {
@@ -313,7 +313,6 @@ body {
 
 .formulario {
   flex-basis: 70%;
-  background-color: #fff;
   padding: 20px;
   background-color: #2D605E;
 }
@@ -333,12 +332,12 @@ body {
   padding: 10px;
   border: 1px solid #ccc;
   background-color: #122727;
-  color:#D7C55A;
+  color:#E8D461;
 }
 
 .forms_contact button {
   background-color: #2D605E;
-  color:#D7C55A;
+  color:#E8D461;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
