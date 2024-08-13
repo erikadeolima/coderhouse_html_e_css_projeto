@@ -163,8 +163,8 @@ body {
 }
 
 .card img {
-  width: 100%;
-  height: 100%;
+  width: 10rem;
+  height: 10rem;
   object-fit: cover;
   border-radius: 10px;
   background-color: gray;
@@ -253,17 +253,26 @@ body {
   height: 150px;
   background-color: #ccc;
   border-radius: 10px 10px 0 0;
+  background-size: cover;
 }
 
-.project_cdescription {
+.project_image_await {
+  width: 100%;
+  background-image: url('https://www.unirio.br/prograd-divulga-resultados-de-bolsas-de-monitoria-e-de-tutoria-especial/propg/jornadapg/imagens/em-construcao/image');
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+  padding-bottom: 80%;
+}
+
+.project_description {
   padding: 20px;
 }
 
-.project_cdescription h2 {
+.project_description h2 {
   margin-top: 0;
 }
 
-.project_cdescription p {
+.project_description p {
   margin-bottom: 20px;
 }
 
@@ -410,12 +419,12 @@ body {
   }
 
   .menu {
-    width: 100%;
-    height: 4rem;
+    width: 98%;
+    height: 3rem;
   }
 
   .menu-sandwich {
-    top:4rem;
+    top:5rem;
     width: 15%;
   }
   .section {
@@ -424,7 +433,7 @@ body {
     padding-top: 5rem;
   }
   #contact{
-    padding-top: 20rem;
+    padding-top: 5rem;
   }
   
   .image_profile {
@@ -453,11 +462,11 @@ body {
 
   .menu {
     width: 95%;
-    height: 4rem;
+    height: 3rem;
   }
 
   .menu-sandwich {
-    top:4rem;
+    top:5rem;
     width: 25%;
   }
   .section {
@@ -466,7 +475,7 @@ body {
     padding-top: 5rem;
   }
   #contact{
-    padding-top: 20rem;
+    padding-top: 5rem;
   }
   
   .image_profile {

@@ -17,3 +17,10 @@ const menuSandwich = document.querySelector('.menu-sandwich');
 menuButton.addEventListener('click', () => {
     menuSandwich.classList.toggle('show');
 });
+
+const projectImages = document.querySelectorAll('.project_image');
+
+projectImages.forEach((image) => {
+  const imageUrl = image.getAttribute('data-image-src');
+  image.style.backgroundImage = `url(${imageUrl})`;
+});
