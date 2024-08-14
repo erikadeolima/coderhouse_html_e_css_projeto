@@ -179,6 +179,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #2D605E;
   color: #E8D461;
+  text-align: justify;
 }
 
 .timeline {
@@ -265,7 +266,9 @@ body {
 }
 
 .project_description {
+  text-decoration: none;
   padding: 20px;
+  color:#E8D461;
 }
 
 .project_description h2 {
@@ -274,6 +277,7 @@ body {
 
 .project_description p {
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 /* Contato */
