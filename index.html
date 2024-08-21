@@ -23,22 +23,20 @@
           fill="#D7C55A" />
       </svg>
     </div>
-  </div>
-  <!-- MENU -->
-  <nav class="menu-sandwich">
-    <ul>
-      <li><a href="#about">Sobre mim</a></li>
-      <li><a href="#portfolio">Portifólio</a></li>
-      <li><a href="#contact">Contatos</a></li>
-      <li><a href="#form">Entre em contato</a></li>
-    </ul>
-  </nav>
+    <!-- MENU -->
+    <nav class="menu-sandwich">
+      <ul>
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#portfolio">Portifólio</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
   </div>
 
   <!-- SOBRE MIM -->
   <div class="section" id="about">
     <h3 class="section_title">Sobre mim</h3>
-    <div class="about">
+    <div class="about_content">
       <div class="image_profile">
         <div class="card">
           <img src="./assets/7anos.jpg" alt="me_with_seven_years_old">
@@ -136,19 +134,18 @@
   <!-- PORTIFÓLIO -->
   <div class="section" id="portfolio">
     <h3 class="section_title">Portifólio</h3>
-    <div class="portifolio">
+    <div class="project_section">
       <div class="project">
         <div class="project_image"
           data-image-src="https://raw.githubusercontent.com/erikadeolima/pollen_project_fullstack/master/front-end/src/Assets/Logo/logo-polen.png">
         </div>
-        <a class="project_description" href="https://github.com/erikadeolima/pollen_project_fullstack"
-          target="_blank">
+        <a class="project_description" href="https://github.com/erikadeolima/pollen_project_fullstack" target="_blank">
           <h2>Pollen Project FullStack</h2>
           <br />
           <p>Este projeto foi desenvolvido como parte avaliativa do curso AfroPretas, uma parceria entre a BEES e a
             Propsper Talents. Esse repo foi adaptado do projeto original, onde aperfeiçoei meus conecimentos em Docker,
             Node.JS, Express, Sequelize e MySQL</p>
-          </a>
+        </a>
       </div>
       <div class="project">
         <div class="project_image_await"></div>
@@ -159,18 +156,20 @@
 
       </div>
     </div>
-    <div class="section" id="contact">
-      <h3 class="section_title">Contatos</h3>
-      <div class="contact_text" id="contact_text">
-        <h4>Entre em contato</h4>
-        <p>
-          Adoraria receber dicas, conselhos ou até mesmo conversar sobre propostas de parceria.
-
-          Entre em contato através das redes sociais, ou através do formulário abaixo.
-        </p>
-      </div>
-      <div class="contact_area">
-        <!-- CONTATO -->
+  </div>
+  <!-- CONTATO -->
+  <div class="section" id="contact">
+    <h3 class="section_title">Contatos</h3>
+    <div class="contact_area">
+      <div class="contact_content">
+        <div class="contact_text" id="contact_text">
+          <h4 class="contact_text_title">Entre em contato</h4>
+          <p class="contact_text_paragraph">
+            Adoraria receber dicas, conselhos ou até mesmo conversar sobre propostas de parceria.
+            <br />
+            Entre em contato através das redes sociais (abaixo), ou através do formulário ao lado.
+          </p>
+        </div>
         <div class="social_media">
           <div class="contact">
             <a href="https://github.com/erikadeolima" target="_blank">
@@ -180,9 +179,7 @@
                     d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
                     fill="#D7C55A" />
                 </svg>
-              </span>
-              <br />
-              <span class="contact_label">erikadeolima</span></a>
+              </span></a>
           </div>
           <div class="contact">
             <a href="https://www.linkedin.com/in/erika-deolima/" target="_blank">
@@ -193,32 +190,28 @@
                     fill="#D7C55A" />
                 </svg>
               </span>
-              <br />
-              <span class="contact_label">
-                Erika Lima
-              </span>
             </a>
           </div>
         </div>
-        <!-- FORMULARIO -->
-        <div class="formulario" id="form">
-          <div class="forms_contact">
-            <form action="">
-              <input type="text" placeholder="Nome">
-              <input type="email" placeholder="Email">
-              <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
-              <button>Enviar</button>
-            </form>
-          </div>
+
+      </div>
+      <div class="formulario" id="form">
+        <div class="forms_contact">
+          <form action="#">
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="Email">
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+            <span class="button_form_submit"><button type="submit">Enviar</button></span>
+          </form>
         </div>
       </div>
     </div>
-
-    <!-- FOOTER -->
-    <div class="footer">
-      <p>Desenvolvido por Erika Lima</p>
-    </div>
-    <script src="script.js"></script>
+  </div>
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>Desenvolvido por Erika Lima</p>
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
