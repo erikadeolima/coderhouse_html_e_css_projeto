@@ -2,7 +2,7 @@
 /* function to change text on contact area */
 
 const contactParagraph = document.querySelector('.contact_text_paragraph');
-if (window.matchMedia("(max-width: 1280px)").matches) {
+if (window.matchMedia("(max-width: 1279px)").matches) {
   contactParagraph.innerHTML = contactParagraph.innerHTML.replace('formulário ao lado', 'formulário abaixo');
 }
 

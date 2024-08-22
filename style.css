@@ -5,11 +5,11 @@
 
 body {
   font-family: Arial, sans-serif;
-  padding-top: 30vh;
+  padding-top: 35vh;
   background-color: #2D605E;
   color: #E8D461;
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     display: flex;
     flex-direction: column;
     padding-top: 11rem;
@@ -30,7 +30,7 @@ body {
   z-index: 1;
   color: #E8D461;
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     display: flex;
     width: 98%;
     height: 3rem;
@@ -103,7 +103,7 @@ body {
 
 .menu-icon {
   display: none;
-  @media (max-width: 1280px) {
+  @media (max-width: 1279px) {
     display: block;
     width: 5%;
   }
@@ -113,7 +113,7 @@ body {
 .menu-sandwich {
   font-size: xx-large;
   width: 60%;
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     position: fixed;
     right: 0;
     background-color: #f0f0f0;
@@ -139,7 +139,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -176,7 +176,7 @@ body {
   padding-top: 18vh;
   margin: 0px 50px 0px 50px;
 
-  @media screen and (min-width: 640px) and (max-width: 1280px) {
+  @media screen and (min-width: 640px) and (max-width: 1279px) {
     padding-top: 5rem;
     margin: 0px 2rem 0px 2rem;
   }
@@ -184,7 +184,16 @@ body {
   @media screen and (max-width: 639px) {
     padding-top: 6rem;
     margin: 0px 2rem 0px 2rem;
+    
   }
+
+ /*  @media screen and (min-width: 425px){
+    min-width: 362px;
+    padding-top: 6rem;
+    margin: 0px 2rem 0px 2rem;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  } */
 }
 
 .section_title {
@@ -195,7 +204,7 @@ body {
 #about {
   margin-top: 18vh;
 
-  @media screen and (min-width: 640px) and (max-width: 1280px) {
+  @media screen and (min-width: 640px) and (max-width: 1279px) {
     margin-top: 5rem;
   }
 
@@ -209,7 +218,7 @@ body {
   flex-direction: row;
   margin-top: 50px;
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     width: 100%;
     margin-top: 2rem;
     justify-content: center;
@@ -221,7 +230,7 @@ body {
   flex-direction: column;
   padding: 2% 10%;
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     display: none;
   }
 }
@@ -252,7 +261,7 @@ body {
   color: #E8D461;
   text-align: justify;
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     display: flex;
     max-width: 90%;
     margin: 0;
@@ -284,7 +293,7 @@ body {
 .description {
   padding-left: 65px;
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     padding-left: 5rem;
   }
 }
@@ -323,7 +332,7 @@ body {
   padding: 0 5%;
   margin-top: 50px;
 
-  @media screen and (min-width: 640px) and (max-width: 1280px) {
+  @media screen and (min-width: 640px) and (max-width: 1279px) {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 2rem;
   }
@@ -435,7 +444,7 @@ body {
   align-items: center;
   padding-top: 50px;
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     grid-template-columns: repeat(2, 1fr);
     padding-top: 2rem;
     align-items: center;
@@ -449,7 +458,7 @@ body {
   width: 50%;
   background-color: #2D605E;
 
-  @media screen and (min-width: 640px) and (max-width: 1280px) {
+  @media screen and (min-width: 640px) and (max-width: 1279px) {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -471,7 +480,7 @@ body {
   color: #E8D461;
   justify-content: center;
 
-  @media screen and (min-width: 769px) and (max-width: 1280px) {
+  @media screen and (min-width: 769px) and (max-width: 1279px) {
     margin-top: 5rem;
     align-items: center;
     justify-content: center;
@@ -494,7 +503,7 @@ body {
   background-color: #122727;
   color: #E8D461;
 
-  @media screen and (max-width: 1280px) {}
+  @media screen and (max-width: 1279px) {}
 }
 
 .forms_contact button {
